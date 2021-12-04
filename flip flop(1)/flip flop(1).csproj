@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F894F65E-192A-406B-8354-6EEBFF845EB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>flip_flop_1_</RootNamespace>
+    <AssemblyName>flip flop%281%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeFile1.cs" />
+    <Compile Include="memorymatchinggme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="memorymatchinggme.Designer.cs">
+      <DependentUpon>memorymatchinggme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="memorymatchinggme.resx">
+      <DependentUpon>memorymatchinggme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
